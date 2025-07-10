@@ -1,0 +1,601 @@
+<!-- /*
+* Template Name: Property
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Untree.co" />
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap5" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>
+      Osward &mdash; Mwambehile
+    </title>
+  </head>
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+      <div class="container">
+        <div class="menu-bg-wrap">
+          <div class="site-navigation">
+            <a href="index.html" class="logo m-0 float-start">Mwambehile</a>
+
+            <ul
+              class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
+            >
+              <li><a href="index.html">Home</a></li>
+             
+              <li><a href="project.html">Projects</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+              <li class="active"><a href="blog.html">Blogs</a></li>
+              <li><a href="testimonial.html">Testemonials</a></li>
+            </ul>
+
+            <a
+              href="#"
+              class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="hero page-inner overlay"
+      style="background-image: url('images/k2.jpg')"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-9 text-center mt-5">
+            <h1 class="heading" data-aos="fade-up">My blogs</h1>
+
+            <nav
+              aria-label="breadcrumb"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <ol class="breadcrumb text-center justify-content-center">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li
+                  class="breadcrumb-item active text-white-50"
+                  aria-current="page"
+                >
+                  My Blogs
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  <style type="text/css">
+    header {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 0;
+}
+
+header .display-4 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+header .lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Categories Section */
+.filter-btn {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Blog Posts Section */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body .badge {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+}
+
+.post-card {
+  background-color: #fff;
+}
+
+.post-card.deployment {
+  border-left: 5px solid #007bff;
+}
+
+.post-card.optimization {
+  border-left: 5px solid #28a745;
+}
+
+.post-card.featured {
+  border-left: 5px solid #dc3545;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+</style>
+
+
+  <!-- Header Section -->
+  <header class=" text-white py-5" style="background-color: rgb(9, 200, 248);">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold" data-aos="fade-right" data-aos-duration="3000">Top Most Posts</h1>
+      <p class="lead"data-aos="fade-right" data-aos-duration="3000">Explore the most trending guides, tutorials, and insights</p>
+    </div>
+  </header>
+
+  <!-- Categories Section -->
+  
+
+  <!-- Blog Posts Section -->
+  <section class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Post 1: Deployment - The Ultimate Guide to Google Search Console -->
+      <div class="col" data-aos="fade-right" data-aos-duration="3000">
+        <div class="card post-card deployment">
+          <img src="images/google.jpg" class="card-img-top" alt="Google Search Console">
+          <div class="card-body">
+            <h5 class="card-title">The Ultimate Guide to Google Search Console</h5>
+            <p class="card-text">Know how to make your website appear at the top of Google search engine.</p>
+            <div class="d-flex justify-content-between">
+              <small class="text-muted">21st Sep, 2023</small>
+              <small class="text-muted">15 Min To Read</small>
+            </div>
+            <span class="badge bg-primary mt-2">Deployment</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 2: Optimization - Web Page Optimization -->
+      <div class="col" data-aos="fade-up" data-aos-duration="3000">
+        <div class="card post-card optimization">
+          <img src="images/web.jpg" class="card-img-top" alt="Web Optimization">
+          <div class="card-body">
+            <h5 class="card-title">Web Page Optimization</h5>
+            <p class="card-text">Learn how to make your page faster than ever.</p>
+            <div class="d-flex justify-content-between">
+              <small class="text-muted">22nd Sep, 2023</small>
+              <small class="text-muted">11 Min To Read</small>
+            </div>
+            <span class="badge bg-success mt-2">Optimization</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Post: Development - Mobile App Development Best Practice -->
+      <div class="col" data-aos="fade-down" data-aos-duration="3000">
+        <div class="card post-card featured development">
+          <img src="images/work-2.png" class="card-img-top" alt="App Development">
+          <div class="card-body">
+            <h5 class="card-title">Mobile App Development Best Practice</h5>
+            <p class="card-text">Make your mobile app smoother than ever.</p>
+            <div class="d-flex justify-content-between">
+              <small class="text-muted">11th Sep, 2023</small>
+              <small class="text-muted">30 Min To Read</small>
+            </div>
+            <span class="badge bg-danger mt-2">Development</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section style="
+  background-color: #f5f5f5; 
+  padding: 40px 20px; 
+  border-radius: 15px; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif;
+">
+  <div class="container my-5" data-aos="fade-right" data-aos-duration="3000">
+    <div class="d-flex justify-content-center flex-wrap gap-4"data-aos="fade-right" data-aos-duration="3000">
+      <button style="
+        padding: 12px 20px; 
+        border: 2px solid #007bff; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        color: #007bff; 
+        font-size: 16px; 
+        font-weight: 500; 
+        transition: all 0.3s ease-in-out; 
+        cursor: pointer;
+      " class="filter-btn active" onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">
+        All Categories
+      </button>
+      <button style="
+        padding: 12px 20px; 
+        border: 2px solid #007bff; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        color: #007bff; 
+        font-size: 16px; 
+        font-weight: 500; 
+        transition: all 0.3s ease-in-out; 
+        cursor: pointer;
+      " class="filter-btn" onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">
+        Development
+      </button>
+      <button style="
+        padding: 12px 20px; 
+        border: 2px solid #007bff; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        color: #007bff; 
+        font-size: 16px; 
+        font-weight: 500; 
+        transition: all 0.3s ease-in-out; 
+        cursor: pointer;
+      " class="filter-btn" onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">
+        Updates
+      </button>
+      <button style="
+        padding: 12px 20px; 
+        border: 2px solid #007bff; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        color: #007bff; 
+        font-size: 16px; 
+        font-weight: 500; 
+        transition: all 0.3s ease-in-out; 
+        cursor: pointer;
+      " class="filter-btn" onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">
+        Deployment
+      </button>
+      <button style="
+        padding: 12px 20px; 
+        border: 2px solid #007bff; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        color: #007bff; 
+        font-size: 16px; 
+        font-weight: 500; 
+        transition: all 0.3s ease-in-out; 
+        cursor: pointer;
+      " class="filter-btn" onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">
+        Optimization
+      </button>
+    </div>
+  </div>
+</section>
+
+<section style="
+  background-color: #ffffff; 
+  padding: 50px 20px; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+  font-family: Arial, sans-serif;
+">
+  <div class="container my-5">
+    <h2 style="
+      text-align: center; 
+      font-size: 32px; 
+      font-weight: 600; 
+      color: #333; 
+      margin-bottom: 40px;
+    ">Featured Posts</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <!-- Post 1 -->
+      <div style="
+        width: 100%; 
+        max-width: 350px; 
+        border-radius: 12px; 
+        overflow: hidden; 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease-in-out; 
+        cursor: pointer;
+      " onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+        <img src="images/k3.jpg" alt="Featured Post 1" style="
+          width: 100%; 
+          height: 200px; 
+          object-fit: cover;
+        " data-aos="fade-right" data-aos-duration="3000">
+        <div style="padding: 20px; background-color: #fafafa;">
+          <h3 style="
+            font-size: 22px; 
+            font-weight: 600; 
+            color: #007bff; 
+            margin-bottom: 10px;
+          " data-aos="fade-right" data-aos-duration="3000">Desktop Application</h3>
+          <p style="
+            font-size: 16px; 
+            color: #666; 
+            margin-bottom: 15px; 
+            line-height: 1.6;
+          " data-aos="fade-right" data-aos-duration="3000">
+            A short description of the featured post. This will give visitors an idea of what the post is about.
+          </p>
+          <a href="#" style="
+            font-size: 16px; 
+            color: #007bff; 
+            font-weight: 500; 
+            text-decoration: none; 
+            transition: color 0.3s ease;
+          " onmouseover="this.style.color='#0056b3';">Read More</a>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div style="
+        width: 100%; 
+        max-width: 350px; 
+        border-radius: 12px; 
+        overflow: hidden; 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease-in-out; 
+        cursor: pointer;
+      " onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';"data-aos="fade-up" data-aos-duration="3000">
+        <img src="images/work-1.png" style="
+          width: 100%; 
+          height: 200px; 
+          object-fit: cover;
+        " data-aos="fade-up" data-aos-duration="3000">
+        <div style="padding: 20px; background-color: #fafafa;">
+          <h3 style="
+            font-size: 22px; 
+            font-weight: 600; 
+            color: #007bff; 
+            margin-bottom: 10px;
+          ">Mobile Application</h3>
+          <p style="
+            font-size: 16px; 
+            color: #666; 
+            margin-bottom: 15px; 
+            line-height: 1.6;
+          " data-aos="fade-up" data-aos-duration="3000">
+            Another great post, offering useful insights or entertainment that your readers will love.
+          </p>
+          <a href="#" style="
+            font-size: 16px; 
+            color: #007bff; 
+            font-weight: 500; 
+            text-decoration: none; 
+            transition: color 0.3s ease;
+          " onmouseover="this.style.color='#0056b3';" data-aos="fade-up" data-aos-duration="3000">Read More</a>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div style="
+        width: 100%; 
+        max-width: 350px; 
+        border-radius: 12px; 
+        overflow: hidden; 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease-in-out; 
+        cursor: pointer;
+      " onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';" data-aos="fade-left" data-aos-duration="3000">
+        <img src="images/k2.jpg" alt="Featured Post 3" style="
+          width: 100%; 
+          height: 200px; 
+          object-fit: cover;
+        " data-aos="fade-left" data-aos-duration="3000">
+        <div style="padding: 20px; background-color: #fafafa;">
+          <h3 style="
+            font-size: 22px; 
+            font-weight: 600; 
+            color: #007bff; 
+            margin-bottom: 10px;
+          " data-aos="fade-left" data-aos-duration="3000">Web Deploynment</h3>
+          <p style="
+            font-size: 16px; 
+            color: #666; 
+            margin-bottom: 15px; 
+            line-height: 1.6;
+          " data-aos="fade-left" data-aos-duration="3000">
+            Description for the featured post goes here. Let your audience know why this post is a must-read.
+          </p>
+          <a href="#" style="
+            font-size: 16px; 
+            color: #007bff; 
+            font-weight: 500; 
+            text-decoration: none; 
+            transition: color 0.3s ease;
+          " onmouseover="this.style.color='#0056b3';" data-aos="fade-left" data-aos-duration="3000">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- /.untree_co-section -->
+
+    <div class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>OSWARD MWAMBEHILE</h3>
+              <address>434, Mabibo,Dar es Salaam,Tanzania</address>
+              <ul class="list-unstyled links">
+                <li><a href="tel://0689859255">+255689859255</a></li>
+                <li><a href="tel://0689859255">+255689859255</a></li>
+                
+                <li>
+                  <a href="mailto:oswardmwambehile@gmail.com">oswardmwambehile@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>Sources</h3>
+              <ul class="list-unstyled float-start links">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+              <ul class="list-unstyled float-start links">
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Creative</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>Links</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+
+              <ul class="list-unstyled social">
+                <li>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-linkedin"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-pinterest"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-dribbble"></span></a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <!-- 
+              **==========
+              NOTE: 
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              **==========
+            -->
+
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              . All Rights Reserved. &mdash; Designed with love by
+              <a href="https://untree.co">Untree.co</a>
+              <!-- License information: https://untree.co/license/ -->
+            </p>
+            <div>
+              Distributed by
+              <a href="https://themewagon.com/" target="_blank">themewagon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.site-footer -->
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
